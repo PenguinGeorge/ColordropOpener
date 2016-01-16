@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteBase /
+RewriteRule ^([a-zA-Z0-9]+)/?$ /c.php?hex=$1 [L] RewriteCond %{HTTP_REFERER} !^http://c.getcolordrop.com/.*$      [NC]
